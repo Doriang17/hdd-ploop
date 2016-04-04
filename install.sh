@@ -9,6 +9,7 @@ yum install ploop vzctl vzquota pigz
 echo "SELINUX=disabled" > /etc/sysconfig/selinux
 cd /home
 wget https://github.com/Doriang17/hdd-ploop/blob/master/dd.sh
+chmod +x dd.sh
 echo "Votre kernel openvz est maintenant opérationel veuillez redemarrer le serveur via reboot puis executer dd.sh dans le /home Appuyez sur entrée pour quitter"
 
 read test
